@@ -24,7 +24,7 @@ This project was developed as part of my **Master's Thesis in Artificial Intelli
 # 🖼 Proposed Pipeline
 
 <p align="center">
-<img src="levelone/KittiDataset/images/MyPipeline.png" width="950">
+<img src="levelone/KittiDataset/images/MyPipeline03 (1).png" width="950">
 </p>
 
 <p align="center">
