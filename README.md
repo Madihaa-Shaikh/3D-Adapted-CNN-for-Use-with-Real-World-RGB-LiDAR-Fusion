@@ -73,23 +73,23 @@ Classification
 ```text
 PointCloud-to-Voxel-3DCNN
 │
-├── LightFieldGrid/
-│   ├── Training Scripts
-│   ├── Voxelization
-│   ├── Reconstruction
-│   └── Evaluation
-│
 ├── levelone/
-│   ├── Data Preparation
-│   ├── Augmentation
-│   ├── Visualization
-│   ├── Training
-│   └── Utilities
+│   ├── KittiDataset/
+│   │   ├── scripts/
+│   │   │   ├── 1_read_labels_and_crop_objects.py
+│   │   │   ├── 2_visualize_pointcloud.py
+│   │   │   ├── 3_voxelize.py
+│   │   │   ├── 4_train_3dcnn.py
+│   │   │   └── 5_save_results.py
+│   │   │
+│   │   ├── models/
+│   │   └── results/
+│   │
+│   └── additional_experiments/
 │
+├── LightFieldGrid/
 ├── .gitignore
-├── LightFieldGrid.sln
 └── README.md
-```
 
 ---
 
