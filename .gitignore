@@ -1,0 +1,73 @@
+# ==========================
+# Visual Studio
+# ==========================
+.vs/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+*.user
+*.suo
+
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ==========================
+# Dataset
+# ==========================
+levelone/KittiDataset/
+dataset/
+data/
+
+# ==========================
+# Generated Data
+# ==========================
+processed/
+voxels/
+results/
+
+# ==========================
+# Models (Ignore only if very large)
+# ==========================
+*.pth
+*.pt
+*.onnx
+
+
+
+# Dataset
+levelone/KittiDataset/
+
+# Generated data
+levelone/frames/
+levelone/frames_raw/
+levelone/processed/
+levelone/voxels/
+levelone/results/
+
+# Point clouds
+*.ply
+
+# Images
+*.png
+*.jpg
+
+
+
+AnotherMethod/
+
+
+# Generated frames
+LightFieldGrid/frames/
+LightFieldGrid/frames_raw/
+*.ply
+
+levelone/colored_pointcloud.ply
+levelone/colored_pointcloud_000000.ply
