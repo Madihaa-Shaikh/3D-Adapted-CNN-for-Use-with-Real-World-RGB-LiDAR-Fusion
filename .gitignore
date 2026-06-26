@@ -55,9 +55,7 @@ levelone/results/
 # Point clouds
 *.ply
 
-# Images
-*.png
-*.jpg
+
 
 
 
